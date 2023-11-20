@@ -49,7 +49,6 @@ function App() {
   return (
     <div className="App">
       <Admin fileInput={fileInput} loadFile={loadFile} />
-      <User />
     </div>
   );
 }
