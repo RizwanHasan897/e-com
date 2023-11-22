@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import Admin from './Componants/Admin';
+import User from "./Componants/User";
 
 function fileInput(event) {
   const fileInput = event.target;
@@ -48,6 +49,7 @@ function loadFile(data) {
 function App() {
   return (
     <div className="App">
+      <User />
       <Admin fileInput={fileInput} loadFile={loadFile} />
     </div>
   );
