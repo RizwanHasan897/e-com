@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  gap: 2em;
+  /* gap: 2em; */
 }
 
 .user-header-container-left > h1 {
@@ -32,13 +32,12 @@
   border: 2px solid white;
   border-radius: 50px;
   padding: 1rem 2rem;
-  width: 90%;
+  width: 100%;
 }
 
 .user-header-form > button{
   position: absolute;
   right: 0;
-  top: 0;
   background-color: white;
   border-radius: 50%;
   height: 100%;
